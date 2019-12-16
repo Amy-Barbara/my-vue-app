@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1 class="title">My Blog App :)</h1>
-
+    <h1 class="title">My Blog App Amplify Test</h1>
     <ul>
       <li v-for='(post, index) in posts' :key='index'>
         <router-link :to="`/post/${post.id}`">{{post.title}}</router-link>
